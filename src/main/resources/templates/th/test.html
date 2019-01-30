@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div th:replace="~{/fragements/header :: header}"></div>
+<span th:text="${userModel.user.email}"></span>
+<div th:replace="~{/fragements/footer :: footer}"></div>
+</body>
+</html>
